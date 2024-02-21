@@ -1,0 +1,7 @@
+{
+    "workbench.colorCustomizations": {
+        "editor-ruler.foreground": "#ff00FF"
+    },
+    "dart.lineLength": 500,
+    "editor.rulers": [500]
+}
