@@ -147,12 +147,10 @@ class _MyBackGroundV2State extends State<MyBackGroundV2> with TickerProviderStat
         //FONDO DONDE VA A APARECER LAS ANIMACIONES
         Container(
           decoration: const BoxDecoration(
-            // image: DecorationImage(
-            //   fit: BoxFit.cover,
-            //   image: AssetImage(
-            //     "assets/Background1.jpg",
-            //   ),
-            // ),
+            image: DecorationImage(
+              fit: BoxFit.cover,
+              image: AssetImage("assets/Background6.jpg"),
+            ),
             gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -169,16 +167,16 @@ class _MyBackGroundV2State extends State<MyBackGroundV2> with TickerProviderStat
           child: Stack(
             children: [
               //Fondo de video
-              SizedBox.expand(
-                child: FittedBox(
-                  fit: BoxFit.cover,
-                  child: SizedBox(
-                    width: _controllerVideo.value.size?.width ?? 0,
-                    height: _controllerVideo.value.size?.height ?? 0,
-                    child: VideoPlayer(_controllerVideo),
-                  ),
-                ),
-              ),
+              // SizedBox.expand(
+              //   child: FittedBox(
+              //     fit: BoxFit.cover,
+              //     child: SizedBox(
+              //       width: _controllerVideo.value.size?.width ?? 0,
+              //       height: _controllerVideo.value.size?.height ?? 0,
+              //       child: VideoPlayer(_controllerVideo),
+              //     ),
+              //   ),
+              // ),
 
               //Generación dinámica de los paracaidas
               // Row(

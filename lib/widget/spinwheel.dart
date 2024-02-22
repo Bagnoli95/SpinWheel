@@ -210,7 +210,8 @@ class _MySpinWheelState extends State<MySpinWheel> with TickerProviderStateMixin
                   // ),
                   onPressed: () => {cerrarTicket(indexPremio)},
                   iconSize: 10,
-                  icon: Image.asset("assets/TABLERO-02.png", height: 200, width: 300),
+                  // icon: Image.asset("assets/TABLERO-02.png", height: 200, width: 300),
+                  icon: Image.asset("assets/button2.png", height: 200, width: 300),
                 ),
               )
             : Positioned(
@@ -224,7 +225,8 @@ class _MySpinWheelState extends State<MySpinWheel> with TickerProviderStateMixin
                   // ),
                   onPressed: () => {girarRuleta()},
                   iconSize: 10,
-                  icon: Image.asset("assets/TABLERO-02.png", height: 200, width: 300),
+                  // icon: Image.asset("assets/TABLERO-02.png", height: 200, width: 300),
+                  icon: Image.asset("assets/button2.png", height: 200, width: 300),
                 ),
               ),
       ],
